@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MenCloths {
     @GetMapping("/nishi")
     public String getData(){
-        return "Please visit the shop its amazing";
+        return "Please visit the shop ";
     }
 
 }
